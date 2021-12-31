@@ -64,7 +64,7 @@ public class CategoriaAction extends ActionSupport {
     
     
     public String getTitulo(){
-        return getText("gestionProducto.titulo");
+        return getText("categoria.titulo");
     }
     
     

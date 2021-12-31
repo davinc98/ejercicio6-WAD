@@ -16,42 +16,47 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
     </head>
     <body>
+        
+        
+        <div class="container">
+            <center>
+        
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.jsp">
+                            Proyecto V6
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="listarCategorias">Categorias</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="listarProductos">Productos</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="listarUsuarios">Usuarios</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+        
+        
+        
         <h1>Hibernate, sin la capa de DTO con STRUTS</h1>
         
-        
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="/imagenes/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                        Proyecto V6
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="listarCategorias">Categorias</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="">Productos</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="">Usuarios</a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        
-        
+        </center>
+        </div>
         
     </body>
 </html>
