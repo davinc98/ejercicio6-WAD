@@ -38,6 +38,6 @@ public class Producto implements Serializable {
 //    @ManyToOne(fetch=FetchType.LAZY)
     @ManyToOne(fetch=FetchType.EAGER)
     @JoinColumn(name="idCategoria")
-    private Categoria claveCategoria;
+    private Categoria idCategoria;
 
 }

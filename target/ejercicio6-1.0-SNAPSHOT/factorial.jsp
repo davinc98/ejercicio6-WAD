@@ -13,6 +13,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>
+            El valor de resultado es <s:property value="resultado"/>
+        </h1>
     </body>
 </html>

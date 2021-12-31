@@ -1,4 +1,4 @@
 # Practica 6
 ## Web Application Development
 
-Este proyecto hace uso de STRUTS.
+Este proyecto hace uso de STRUTS y Hibernate.

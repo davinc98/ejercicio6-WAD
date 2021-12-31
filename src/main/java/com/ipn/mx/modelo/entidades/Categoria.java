@@ -32,6 +32,6 @@ public class Categoria implements Serializable{
     private String nombreCategoria; 
     
     @Column (name = "descripcionCategoria", length = 100, nullable = false)
-    private String descripcionCategoria;
+    private String descripcionCategoria;  
     
 }

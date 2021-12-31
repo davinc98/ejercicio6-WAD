@@ -24,7 +24,7 @@
         
         
         
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!--        <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="/imagenes/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
@@ -53,7 +53,7 @@
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </nav>-->
         
         
         
@@ -80,8 +80,12 @@
                                     <td>
                                         Descripcion de la Categoria
                                     </td>
-                                    <td>Eliminar</td>
-                                    <td>Actualizar</td>
+                                    <td>
+                                        Eliminar
+                                    </td>
+                                    <td>
+                                        Actualizar
+                                    </td>
                                 </tr>
                                 <s:iterator value="categorias">
                                     <tr>

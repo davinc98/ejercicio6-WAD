@@ -64,7 +64,7 @@ public class CategoriaAction extends ActionSupport {
     
     
     public String getTitulo(){
-        return getText("gestionProducto.titulo.titulo");
+        return getText("gestionProducto.titulo");
     }
     
     
@@ -96,7 +96,6 @@ public class CategoriaAction extends ActionSupport {
     
     public String actualizarCategoria(){
         categoria = dao.read(categoria);        
-
         return SUCCESS;
     }
 }

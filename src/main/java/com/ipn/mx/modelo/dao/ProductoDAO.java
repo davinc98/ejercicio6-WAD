@@ -101,10 +101,10 @@ public class ProductoDAO {
         ProductoDAO dao = new ProductoDAO();
         Producto dto = new Producto();
        
-        dto.setIdProducto(3);
-
-        dto = dao.read(dto);
-        dao.delete(dto);
+//        dto.setIdProducto(3);
+//
+//        dto = dao.read(dto);
+//        dao.delete(dto);
         
         System.out.println(dao.readAll());
     }
